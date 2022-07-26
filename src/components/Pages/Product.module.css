@@ -3,6 +3,69 @@
     width: 100%;
 }
 
-.product {
-   
+.product_info {
+    border-radius: 10px;
+    background-color: hsl(0, 0%, 100%);
+    padding-bottom: 1.5em;
+}
+
+.product_info h1 {
+    font-family: 'Fraunces', sans-serif;
+    font-size: 2.5em;
+    padding-left: 0.6em;
+    margin: 0;
+}
+
+p {
+    font-family: 'Montserrat', sans-serif;
+    color: hsl(228, 12%, 48%);
+    padding-left: 1.5em;
+    padding-right: 1.5em;
+    line-height: 1.7em;
+}
+
+.price {
+    display: flex;
+    align-items: center;
+}
+
+.price :first-child {
+    align-self: stretch;
+}
+
+.price p {
+    display: flex;
+    justify-content: left;
+    font-family: 'Fraunces', sans-serif;
+    color: hsl(158, 36%, 37%);
+    font-size: 2em;
+}
+
+.price span {
+
+    font-family: 'Montserrat', sans-serif;
+    color: hsl(228, 12%, 48%);
+    text-decoration: line-through;
+    font-size: 0.5em;
+
+}
+
+.product_info button {
+    display: block;
+    background-color: hsl(158, 36%, 37%);
+    color: hsl(0, 0%, 100%);
+    border-radius: 10px;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    border: none;
+    width: 90%;
+    font-size: 1em;
+    font-weight: bold;
+    margin: auto;
+}
+
+
+.buttonname {
+    display: flex;
+    justify-content: space-between;
 }

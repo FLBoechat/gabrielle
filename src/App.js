@@ -1,5 +1,5 @@
 import Container from './components/layout/Container';
-import Product from './components/Pages/Produc';
+import Product from './components/Pages/Product';
 
 function App() {
   return (
