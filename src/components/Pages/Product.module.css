@@ -4,11 +4,8 @@
     padding-bottom: 1.5em;
 }
 
-figure {
-    margin: 0;
-}
 
-figcaption {
+.perfume p {
     padding-left: 20px;
     padding-top: 20px;
     letter-spacing: 0.4em;
@@ -17,7 +14,7 @@ figcaption {
     line-height: 1.7em;
 }
 
-.image img{
+.perfume img{
     border-radius: 10px 10px 0px 0px;
     width: 100%;
 }
@@ -91,4 +88,9 @@ button p {
     align-items: center;
     justify-content: center;
     gap: 10px;
+}
+
+@media (min-width:375px) {
+
+
 }

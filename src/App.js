@@ -1,12 +1,15 @@
 import Container from './components/layout/Container';
 import Product from './components/Pages/Product';
+import Media from 'react-media'
 
 function App() {
   return (
     <div className="App">
-      <Container>
-        <Product/>
-      </Container>
+      <Media>
+        <Container>
+          <Product/>
+        </Container>
+      </Media>
     </div>
   );
 }

@@ -6,10 +6,13 @@ import styles from "./Product.module.css"
 function Product () {
     return (
         <div className={styles.product_info}>
-                <figure className={styles.image}>
-                    <img src={image_mobile} alt="Perfume"/>
-                    <figcaption>PERFUME</figcaption>
-                </figure>
+                
+                <div className={styles.perfume}>
+                    
+                    <img src={image_mobile} alt="Chanel Perfume bottle"/>
+
+                    <p>PERFUME</p>
+                </div>
                 <section>
                     <h1>Gabrielle Essence <br /> Eau De Parfum</h1>
                     <p>A floral, solar and voluptuous interpretation composed by Oliver Polge, Perfumer-Creator for the House of CHANEL.</p>
