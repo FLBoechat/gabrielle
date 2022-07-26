@@ -7,7 +7,7 @@ function Product () {
     return (
         <div className={styles.product_info}>
                 <figure className={styles.image}>
-                    <img src={image_mobile} alt="Product Picture"/>
+                    <img src={image_mobile} alt="Perfume"/>
                     <figcaption>PERFUME</figcaption>
                 </figure>
                 <section>
