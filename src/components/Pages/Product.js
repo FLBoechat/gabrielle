@@ -5,23 +5,25 @@ import styles from "./Product.module.css"
 
 function Product () {
     return (
-        <div>
-            <section className={styles.product_info}>
-                <img className={styles.image} src={image_mobile} alt="Product Picture"/>
-                <p id="perfume">PERFUME</p>
-                <h1>Gabrielle Essence <br /> Eau De Parfum</h1>
-                <p>A floral, solar and voluptuous interpretation composed by Oliver Polge, Perfumer-Creator for the House of CHANEL.</p>
+        <div className={styles.product_info}>
+                <figure className={styles.image}>
+                    <img src={image_mobile} alt="Product Picture"/>
+                    <figcaption>PERFUME</figcaption>
+                </figure>
+                <section>
+                    <h1>Gabrielle Essence <br /> Eau De Parfum</h1>
+                    <p>A floral, solar and voluptuous interpretation composed by Oliver Polge, Perfumer-Creator for the House of CHANEL.</p>
+                </section>
                 <div className={styles.price}>
                     <p>$149.99</p>
                     <p><span>$169.99</span></p>
                 </div>
-                <button type="submut">
-                    <div className="buttonname">
-                        <img src={cart_icon} alt="" /> 
-                        Add to cart
+                <button>
+                    <div className={styles.addcart}>
+                        <img src={cart_icon} alt="Cart icon" />
+                        <p>Add to Cart</p>
                     </div>
                 </button>
-            </section>        
         </div>
     )
 }
