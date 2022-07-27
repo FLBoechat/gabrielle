@@ -1,5 +1,6 @@
 import styled from "styled-components";
 
+
 // ------ General Setting
 
 export const StyledProduct = styled.main`
@@ -7,6 +8,8 @@ export const StyledProduct = styled.main`
 background-color: white;
 border-radius: 10px;
 padding-bottom: 20px;
+max-width: 374px;
+margin: auto;
 
 button {
     display: block;
@@ -16,7 +19,6 @@ button {
     padding-bottom: 12px;
     border: none;
     width: 90%;
-  
     font-weight: bold;
     margin: auto;
 }
@@ -27,10 +29,8 @@ p {
     padding-right: 20px;
     line-height: 1.7em;
 }
-
-
-
 `
+
 // ------ Image Setup
 
 export const Image = styled.img`

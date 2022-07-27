@@ -8,11 +8,17 @@ import {Image} from './styles/Product.styled'
 function Product () {
     return ( 
         <StyledProduct>
+    
             <Image src={image_mobile} alt="Chanel Perfume bottle"/>
             <PerfCaption>PERFUME</PerfCaption>
+
             <PerfDescription>
-                <h1>Gabrielle Essence <br /> Eau De Parfum</h1>
-                <p>A floral, solar and voluptuous interpretation composed by Oliver Polge, Perfumer-Creator for the House of CHANEL.</p>
+                <h1>
+                    Gabrielle Essence <br /> Eau De Parfum
+                </h1>
+                <p>
+                    A floral, solar and voluptuous interpretation composed by Oliver Polge, Perfumer-Creator for the House of CHANEL.
+                </p>
             </PerfDescription>
 
             <PerfPrice>
