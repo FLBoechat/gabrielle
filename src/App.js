@@ -1,17 +1,16 @@
-import Container from './components/layout/Container';
-import Product from './components/Pages/Product';
-import {Appwrap} from './appStyles'
+import Product from './components/Product'
+import {AppWrap} from './components/styles/App.styled'
+import GlobalStyles from './components/styles/Global';
 
 
 function App() {
   return (
-    <div className="App">
-
-          <Container>
-            <Product/>
-          </Container>
-
-    </div>
+    <>
+      <GlobalStyles/>
+      <AppWrap>
+        <Product/>
+      </AppWrap>
+    </>
   );
 }
 

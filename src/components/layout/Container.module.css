@@ -1,7 +1,0 @@
-.container {
-    padding: 1em;
-    display: flex;
-    background-color: hsl(30, 38%, 92%);
-    flex-direction: column;
-    height: 97vh;
-}
