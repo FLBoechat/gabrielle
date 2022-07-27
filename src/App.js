@@ -1,15 +1,16 @@
 import Container from './components/layout/Container';
 import Product from './components/Pages/Product';
-import Media from 'react-media'
+import {Appwrap} from './appStyles'
+
 
 function App() {
   return (
     <div className="App">
-      <Media>
-        <Container>
-          <Product/>
-        </Container>
-      </Media>
+
+          <Container>
+            <Product/>
+          </Container>
+
     </div>
   );
 }
