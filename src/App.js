@@ -1,16 +1,22 @@
+import { ThemeProvider } from "styled-components"
 import Product from './components/Product'
-import {AppWrap} from './components/styles/App.styled'
+import {StyledApp} from './components/styles/App.styled'
 import GlobalStyles from './components/styles/Global';
 
+const theme = {
+  desktop: '1440px', 
+}
 
 function App() {
   return (
-    <>
-      <GlobalStyles/>
-      <AppWrap>
-        <Product/>
-      </AppWrap>
-    </>
+    <ThemeProvider theme = {theme}>
+      <>
+        <GlobalStyles/>
+        <StyledApp>
+          <Product/>
+        </StyledApp>
+      </>
+    </ThemeProvider>
   );
 }
 
