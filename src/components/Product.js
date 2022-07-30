@@ -4,7 +4,7 @@ import cart_icon from "../images/icon_cart.svg"
 
 import {StyledProduct} from './styles/Product.styled'
 import {Image, Image2, PerfCaption} from "./styles/Image.styled"
-import { Description } from "./styles/Description.styled"
+import { Description, Title1, Title2 } from "./styles/Description.styled"
 import {PerfPrice} from '../components/styles/Price.styled'
 import {Button} from '../components/styles/Button.styled'
 
@@ -24,36 +24,36 @@ function Product () {
 
             {/* Image Caption Setup */}
 
-            <PerfCaption>
-                PERFUME
-            </PerfCaption>
-
-            {/* Item DEscription */}
-
-            <Description>
-                <h1>
-                    Gabrielle Essence <br /> Eau De Parfum
-                </h1>
-                <p>
-                    A floral, solar and voluptuous interpretation composed by Oliver Polge, Perfumer-Creator for the House of CHANEL.
-                </p>
-            </Description>
-
-            {/* Perfume price setup */}
-
-            <PerfPrice>
-                <p>$149.99</p>
-                <p><span>$169.99</span></p>
-            </PerfPrice>
-
-            {/* Add Cart Button Setup */}
-
-            <Button>
+            <section>
+                <PerfCaption>
+                    PERFUME
+                </PerfCaption>
+                {/* Item DEscription */}
+                <Description>
+                    <Title1>
+                        Gabrielle Essence <br /> Eau De Parfum
+                    </Title1>
+                    <Title2>
+                        Gabrielle <br /> Essence Eau <br />
+                        De Parfum
+                    </Title2>
+                    <p>
+                        A floral, solar and voluptuous interpretation composed by Oliver Polge, Perfumer-Creator for the House of CHANEL.
+                    </p>
+                </Description>
+                {/* Perfume price setup */}
+                <PerfPrice>
+                    <p>$149.99</p>
+                    <p><span>$169.99</span></p>
+                </PerfPrice>
+                {/* Add Cart Button Setup */}
                 <div>
-                    <img src={cart_icon} alt="Cart icon" />
-                    <p>Add to Cart</p>
+                    <Button>
+                        <img src={cart_icon} alt="Cart icon" />
+                        <p>Add to Cart</p>
+                    </Button>
                 </div>
-            </Button>
+            </section>
                   
         </StyledProduct>
     )

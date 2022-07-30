@@ -8,7 +8,7 @@ h1 {
     font-family: 'Fraunces', sans-serif;
     color: hsl(212, 21%, 14%);
     font-size: 2em;
-    padding: 10px 20px 10px 20px;
+    padding: 20px 20px 20px 20px;
     line-height: 1;
 }
 
@@ -18,5 +18,27 @@ p {
     padding-left: 20px;
     padding-right: 20px;
     line-height: 1.7em;
+
+    @media (min-width: ${({theme}) => theme.desktop}){
+    padding-bottom: 15px;
+    
+    } 
 }
+
+`
+
+export const Title1 = styled.h1`
+
+@media (min-width: ${({theme}) => theme.desktop}){
+    display: none;
+    
+} 
+`
+export const Title2 = styled.h1`
+display: none;
+
+@media (min-width: ${({theme}) => theme.desktop}){
+    display: block;
+    
+} 
 `

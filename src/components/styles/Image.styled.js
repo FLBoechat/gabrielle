@@ -12,12 +12,13 @@ export const Image = styled.img`
 `
 
 export const Image2 = styled.img`
-display: none;
+    display: none;
     border-radius: 10px 10px 0px 0px;
     width: 100%;
     @media (min-width: ${({theme}) => theme.desktop}){
         display: block;
         border-radius: 10px 0px 0px 10px;
+        width: 50%;
     }
 `
 // ------ Image Caption Setup
@@ -30,4 +31,10 @@ letter-spacing: 0.4em;
 padding-left: 20px;
 padding-top: 15px;
 font-size: 0.75em;
+
+@media (min-width: ${({theme}) => theme.desktop}){
+    padding-top: 20px;
+} 
+
+
 `

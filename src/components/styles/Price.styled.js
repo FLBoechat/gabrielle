@@ -6,14 +6,14 @@ export const PerfPrice = styled.div`
 
 display: flex;
 align-items: center;
-padding-bottom: 10px;
-padding-top: 15px;
+padding-bottom: 5px;
+padding-top: 10px;
 font-size: 1em;
+gap: 20px;
 
 p {
     font-family: 'Montserrat', sans-serif;
     color: hsl(228, 12%, 48%);
-    padding-left: 20px;
     line-height: 1.7em;
     display: flex;
     font-family: 'Fraunces', sans-serif;
@@ -27,4 +27,9 @@ span {
     text-decoration: line-through;
     font-size: 0.4em;
 }
+
+@media (min-width: ${({theme}) => theme.desktop}){
+    padding-bottom: 15px;
+    
+} 
 `

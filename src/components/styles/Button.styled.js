@@ -6,21 +6,24 @@ export const Button = styled.button`
 display: flex;
 background-color: hsl(158, 36%, 37%);
 border-radius: 8px;
-padding-top: 12px;
-padding-bottom: 12px;
+padding-top: 15px;
+padding-bottom: 15px;
 border: none;
-width: 90%;
+width: 100%;
 font-weight: bold;
 margin: auto;
+justify-content: center;
+align-items: center;
+gap: 10px;
+color: white;
 
-div {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 10px;
-}
 
-p {
-    color: white;
-}
+@media (min-width: ${({theme}) => theme.desktop}){
+   cursor: pointer;
+
+    :active {
+        filter: brightness(60%);
+    }
+    
+} 
 `
