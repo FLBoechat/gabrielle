@@ -6,6 +6,7 @@ export const StyledProduct = styled.div`
 position: absolute;
 top: 50%;
 left: 50%;
+
 transform: translate(-50%, -50%);
 background-color: white;
 border-radius: 10px;
@@ -27,9 +28,12 @@ div {
     height: auto;
     width: 600px;
     padding: 0;
+    flex: 1;
 
     section {
         flex-direction: column;
+        padding-bottom: 20px;
+        margin: 0 auto;
     }
     
 }  
