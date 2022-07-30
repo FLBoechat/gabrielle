@@ -28,11 +28,13 @@ Users should be able to:
 ### Screenshot
 
 [Mobile Design](./public/mobile_version.png)
+
 [Desktop Design](./public/desktop_version.png)
 
 ### Links
 
 [Solution URL](https://github.com/FLBoechat/gabrielle)
+
 [Live URL](https://flboechat.github.io/gabrielle/)
 
 ## My process
