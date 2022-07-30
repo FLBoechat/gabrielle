@@ -19,10 +19,11 @@ color: white;
 
 
 @media (min-width: ${({theme}) => theme.desktop}){
-   cursor: pointer;
+   
+    cursor: pointer;
 
-    :active {
-        filter: brightness(60%);
+    &:hover {
+        background-color: hsl(158, 36%, 20%);
     }
     
 } 
