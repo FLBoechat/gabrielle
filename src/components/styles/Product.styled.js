@@ -10,7 +10,7 @@ transform: translate(-50%, -50%);
 background-color: white;
 border-radius: 10px;
 padding-bottom: 20px;
-width: 345px;
+width: 335px;
 margin: 0 auto;
 display: flex;
 flex-direction: column;
@@ -23,16 +23,13 @@ div {
 
 
 @media (min-width: ${({theme}) => theme.desktop}){
-    display: flex;
     flex-direction: row;
     height: auto;
     width: 600px;
     padding: 0;
 
     section {
-        display: flex;
         flex-direction: column;
-        height: 100%;
     }
     
 }  
