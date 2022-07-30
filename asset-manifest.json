@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.js": "/gabrielle/static/js/main.11baf00f.js",
+    "main.js": "/gabrielle/static/js/main.3ded13a5.js",
     "static/media/image_product_desktop.jpg": "/gabrielle/static/media/image_product_desktop.c96d43af17111fe78e96.jpg",
     "static/media/image_product_mobile.jpg": "/gabrielle/static/media/image_product_mobile.113818bc746dc8e64ffb.jpg",
     "index.html": "/gabrielle/index.html",
     "static/media/icon_cart.svg": "/gabrielle/static/media/icon_cart.9606ad84b7565a3f523f9429396f8066.svg",
-    "main.11baf00f.js.map": "/gabrielle/static/js/main.11baf00f.js.map"
+    "main.3ded13a5.js.map": "/gabrielle/static/js/main.3ded13a5.js.map"
   },
   "entrypoints": [
-    "static/js/main.11baf00f.js"
+    "static/js/main.3ded13a5.js"
   ]
 }
